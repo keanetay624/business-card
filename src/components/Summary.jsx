@@ -16,7 +16,7 @@ export default function Summary() {
         <h2>Software Developer</h2>
         <h3>keanetay.com</h3>
         <div className="summary-socials">
-          <button><a className="btn" href="mailto: keanetay@gmail.com">{envelopeIcon}Email</a></button>
+          <button className="btn"><a href="mailto: keanetay@gmail.com">{envelopeIcon}Email</a></button>
           <button id="btnLinkedin"><a href="https://www.linkedin.com/in/keane-tay-21061116b/" className="linkedin" target="_blank">{linkedinIcon}LinkedIn</a></button>
         </div>
       </header>)
