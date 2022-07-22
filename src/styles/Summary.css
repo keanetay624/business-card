@@ -52,6 +52,12 @@ header > h3 {
     padding: 0 3px;
 }
 
-.btn, .btn:visited {
-    color: black;
+.btn > a:visited, .btn > a {
+    color:black;
+}
+
+@media (prefers-color-scheme: dark) {
+    .btn, .btn:visited {
+        background-color: white;
+    }
 }
